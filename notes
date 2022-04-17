@@ -4,3 +4,5 @@
 
 sudo docker build -t flask-app-1006:latest .
 sudo docker run -d -p 5000:5000 flask-app-1006
+
+curl localhost:5000
